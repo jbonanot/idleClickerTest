@@ -1,7 +1,6 @@
 import tkinter as tk 
 from tkinter import ttk
 from tkinter import *
-from functions import *
 
 scoreValue = 0
 
