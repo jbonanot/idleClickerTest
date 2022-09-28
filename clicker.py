@@ -5,6 +5,12 @@ from functions import *
 
 scoreValue = 0
 
+def scoreUp():
+    global scoreBox
+    global scoreValue
+    scoreValue = scoreValue + 1
+    scoreBox["text"] = "Score: " + str(scoreValue)
+
 window = tk.Tk()
 window.geometry('700x700')
 window.resizable(False, False)
